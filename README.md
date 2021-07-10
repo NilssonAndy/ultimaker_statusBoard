@@ -3,6 +3,8 @@
 Note that this is a work in progress, it is usable but it is not completely done.
 
 
+Tested on raspberry Pi
+
 
 Open Terminal / BASH
 
