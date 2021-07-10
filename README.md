@@ -23,13 +23,34 @@ Activate the virtual environment (source ./venv/bin/activate)
 
 inside folder_name
 
+
+
 pip install Flask
+
+
+
 pip install Flask-SocketIO
+
+
+
 pip install requests
 
+
+
 then still in folder_name type:
+
+
+
 git clone https://github.com/NilssonAndy/ultimaker_statusBoard.git
 
+
+
 cd ultimaker_statusBoard/service
+
+
+
 python3 app.py
+
+
+
 navigate to http://127.0.0.1:5000/ in your browser on the local machine
