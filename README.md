@@ -1,3 +1,4 @@
+![bc83903dece2c55ed2dd2eb44f3d0caa](https://user-images.githubusercontent.com/57374106/125447413-d4e4d16e-67b9-415e-b602-7132ec4a48aa.png)
 # ultimaker_statusBoard
 
 Note that this is a work in progress, it is usable but it is not completely done.
