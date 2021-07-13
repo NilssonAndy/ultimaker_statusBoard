@@ -71,3 +71,17 @@ to run type: python3 app.py
 
 
 navigate to http://127.0.0.1:5000/ in your browser on the local machine
+
+
+If you customise I recomend using 
+
+if __name__ == '__main__':
+    socketio.run(app, debug=True)
+    
+Inside of app.py instead of 
+
+
+if __name__ == '__main__':
+    socketio.run(app)
+    
+When done, do not forget to just use socketio.run(app)
