@@ -1,10 +1,17 @@
-![bc83903dece2c55ed2dd2eb44f3d0caa](https://user-images.githubusercontent.com/57374106/125447413-d4e4d16e-67b9-415e-b602-7132ec4a48aa.png)
+
 # ultimaker_statusBoard
 
 Note that this is a work in progress, it is usable but it is not completely done.
 
 
 Tested on raspberry Pi
+
+![b0eba29b8430e8cff28e7459c436c2dd](https://user-images.githubusercontent.com/57374106/125447598-9cd7a7cc-c186-4f22-8e98-e5241b73c3ce.png)
+
+
+
+INSTRUCTIONS
+
 
 
 Open Terminal / BASH
