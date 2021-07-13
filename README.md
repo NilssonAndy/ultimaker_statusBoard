@@ -62,8 +62,11 @@ git clone https://github.com/NilssonAndy/ultimaker_statusBoard.git
 cd ultimaker_statusBoard/service
 
 
+change the ip adress to match yours
 
-python3 app.py
+
+
+to run type: python3 app.py
 
 
 
