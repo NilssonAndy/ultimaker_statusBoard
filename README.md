@@ -59,7 +59,7 @@ git clone https://github.com/NilssonAndy/ultimaker_statusBoard.git
 
 
 
-cd ultimaker_statusBoard/service
+cd ultimaker_statusBoard/server
 
 
 change the ip adress to match yours
