@@ -40,7 +40,7 @@ def background_thread():
 
         #S3 NR 1 NAME
         socketio.sleep(3)
-        nameRequestS3_1 = requests.get("http://192.../api/v1/print_job/name")
+        nameRequestS3_1 = requests.get("http://192.168.50.203/api/v1/print_job/name")
         if nameRequestS3_1.status_code == 404:
             s3name1 = " "
             #print(s3name)
@@ -56,7 +56,7 @@ def background_thread():
         socketio.sleep(3)
         #S3 NR 1 STATE
 
-        stateRequestS3_1 = requests.get("http://192.../api/v1/print_job/state")
+        stateRequestS3_1 = requests.get("http://192.168.50.203/api/v1/print_job/state")
         
         if stateRequestS3_1.status_code == 404:
             s3StateC1 = "Ready"
@@ -82,11 +82,11 @@ def background_thread():
 
         #r1 = r_timeElapseS3_1
         #S3 NR 1 TIME
-        r_timeElapseS3_1 = requests.get("http://192.../api/v1/print_job/time_elapsed")
+        r_timeElapseS3_1 = requests.get("http://192.168.50.203/api/v1/print_job/time_elapsed")
         s3time_elapsed_1 = r_timeElapseS3_1.text
         #print(s3time_elapsed)
         #r2 = r_timeTotS3_1
-        r_timeTotS3_1 = requests.get("http://192.../api/v1/print_job/time_total")
+        r_timeTotS3_1 = requests.get("http://192.168.50.203/api/v1/print_job/time_total")
         s3time_total_1 = r_timeTotS3_1.text
         
         
@@ -149,7 +149,7 @@ def background_thread():
 
         #S3 NR 2 NAME
         socketio.sleep(3)
-        nameRequestS3_2 = requests.get("http://192.../api/v1/print_job/name")
+        nameRequestS3_2 = requests.get("http://192.168.50.204/api/v1/print_job/name")
         if nameRequestS3_2.status_code == 404:
             s3name2 = " "
             #print(s3name)
@@ -165,7 +165,7 @@ def background_thread():
         socketio.sleep(3)
         #S3 NR 2 STATE
 
-        stateRequestS3_2 = requests.get("http://192.../api/v1/print_job/state")
+        stateRequestS3_2 = requests.get("http://192.168.50.204/api/v1/print_job/state")
         
         if stateRequestS3_2.status_code == 404:
             s3StateC2 = "Ready"
@@ -187,11 +187,11 @@ def background_thread():
 
         #r1 = r_timeElapseS3_1
         #S3 NR 2 TIME
-        r_timeElapseS3_2 = requests.get("http://192.../api/v1/print_job/time_elapsed")
+        r_timeElapseS3_2 = requests.get("http://192.168.50.204/api/v1/print_job/time_elapsed")
         s3time_elapsed_2 = r_timeElapseS3_2.text
         #print(s3time_elapsed)
         #r2 = r_timeTotS3_1
-        r_timeTotS3_2 = requests.get("http://192.../api/v1/print_job/time_total")
+        r_timeTotS3_2 = requests.get("http://192.168.50.204/api/v1/print_job/time_total")
         s3time_total_2 = r_timeTotS3_2.text
         
         
@@ -256,7 +256,7 @@ def background_thread():
 
         #S3 NR 3 NAME
         socketio.sleep(3)
-        nameRequestS3_3 = requests.get("http://192.../api/v1/print_job/name")
+        nameRequestS3_3 = requests.get("http://192.168.50.205/api/v1/print_job/name")
         if nameRequestS3_3.status_code == 404:
             s3name3 = " "
             
@@ -270,7 +270,7 @@ def background_thread():
         socketio.sleep(3)
         #S3 NR 2 STATE
 
-        stateRequestS3_3 = requests.get("http://192.../api/v1/print_job/state")
+        stateRequestS3_3 = requests.get("http://192.168.50.205/api/v1/print_job/state")
         
         if stateRequestS3_3.status_code == 404:
             s3StateC3 = "Ready"
@@ -292,10 +292,10 @@ def background_thread():
 
        
         #S3 NR 2 TIME
-        r_timeElapseS3_3 = requests.get("http://192.../api/v1/print_job/time_elapsed")
+        r_timeElapseS3_3 = requests.get("http://192.168.50.205/api/v1/print_job/time_elapsed")
         s3time_elapsed_3 = r_timeElapseS3_3.text
         
-        r_timeTotS3_3 = requests.get("http://192.../api/v1/print_job/time_total")
+        r_timeTotS3_3 = requests.get("http://192.168.50.205/api/v1/print_job/time_total")
         s3time_total_3 = r_timeTotS3_3.text
         
         
@@ -357,7 +357,7 @@ def background_thread():
 
         #S5 NR 1 NAME
         socketio.sleep(3)
-        nameRequestS5_1 = requests.get("http://192.../api/v1/print_job/name")
+        nameRequestS5_1 = requests.get("http://192.168.50.201/api/v1/print_job/name")
         if nameRequestS5_1.status_code == 404:
             s5name1 = " "
             
@@ -371,7 +371,7 @@ def background_thread():
         socketio.sleep(3)
         #S5 NR 1 STATE
 
-        stateRequestS5_1 = requests.get("http://192.../api/v1/print_job/state")
+        stateRequestS5_1 = requests.get("http://192.168.50.201/api/v1/print_job/state")
         
         if stateRequestS5_1.status_code == 404:
             s5StateC1 = "Ready"
@@ -393,10 +393,10 @@ def background_thread():
 
         
         #S5 NR 1 TIME
-        r_timeElapseS5_1 = requests.get("http://192.../api/v1/print_job/time_elapsed")
+        r_timeElapseS5_1 = requests.get("http://192.168.50.201/api/v1/print_job/time_elapsed")
         s5time_elapsed_1 = r_timeElapseS5_1.text
       
-        r_timeTotS5_1 = requests.get("http://192.../api/v1/print_job/time_total")
+        r_timeTotS5_1 = requests.get("http://192.168.50.201/api/v1/print_job/time_total")
         s5time_total_1 = r_timeTotS5_1.text
         
         
@@ -459,7 +459,7 @@ def background_thread():
 
         #S5 NR 2 NAME
         socketio.sleep(3)
-        nameRequestS5_2 = requests.get("http://192.../api/v1/print_job/name")
+        nameRequestS5_2 = requests.get("http://192.168.50.202/api/v1/print_job/name")
         if nameRequestS5_2.status_code == 404:
             s5name2 = " "
             
@@ -473,7 +473,7 @@ def background_thread():
         socketio.sleep(3)
         #S5 NR 2 STATE
 
-        stateRequestS5_2 = requests.get("http://192.../api/v1/print_job/state")
+        stateRequestS5_2 = requests.get("http://192.168.50.202/api/v1/print_job/state")
         
         if stateRequestS5_2.status_code == 404:
             s5StateC2 = "Ready"
@@ -495,10 +495,10 @@ def background_thread():
 
         
         #S5 NR 2 TIME
-        r_timeElapseS5_2 = requests.get("http://192.../api/v1/print_job/time_elapsed")
+        r_timeElapseS5_2 = requests.get("http://192.168.50.202/api/v1/print_job/time_elapsed")
         s5time_elapsed_2 = r_timeElapseS5_2.text
       
-        r_timeTotS5_2 = requests.get("http://192.../api/v1/print_job/time_total")
+        r_timeTotS5_2 = requests.get("http://192.168.50.202/api/v1/print_job/time_total")
         s5time_total_2 = r_timeTotS5_2.text
         
         
