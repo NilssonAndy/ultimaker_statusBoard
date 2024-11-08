@@ -1,8 +1,12 @@
 
 # ultimaker_statusBoard
 
-Note that this is a work in progress, it is usable but it is not completely done.
+Overview for multiple Ultimaker printers
 
+
+Note that this is a work in progress, it is usable but not done.
+
+Change the ip-adress in the code to match yours.
 
 Tested on raspberry Pi
 
